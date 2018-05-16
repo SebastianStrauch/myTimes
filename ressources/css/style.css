@@ -42,19 +42,32 @@ nav a{
 }
 
 .content{
-
+  border: 1px solid black;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
-.column_left{
-  border: 1px solid black;
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
-.column_center{
+.left{
   border: 1px solid black;
+  width: 630px;
 }
 
-.column_right{
+.center{
   border: 1px solid black;
+  width: 300px;
+}
+
+.right{
+  border: 1px solid black;
+  width: 240px;
 }
 
 .lead-story{
@@ -73,6 +86,10 @@ border: 1px solid black;
 border: 1px solid black;
 }
 
+.image-content_d{
+border: 1px solid black;
+}
+
 .narrative{
 border: 1px solid black;
 }
@@ -87,4 +104,16 @@ border: 1px solid black;
 
 .text-content{
 border: 1px solid black;
+}
+
+.cookie{
+  border: 1px solid black;
+}
+
+.news-bites{
+  border: 1px solid black;
+}
+
+.bite{
+  border: 1px solid black;
 }
